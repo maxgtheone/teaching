@@ -3,3 +3,6 @@ def hello():
 
 def bye():
     print('messing you up')
+
+def whatevs():
+    print('Im learning!')
