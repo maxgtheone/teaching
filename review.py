@@ -14,5 +14,5 @@ def add_one(i: int) -> int:
     return i + 1
 
 #Create a list comprehension that utilizes the add_one function and returns a list [1,2,3]
-example_two_list_comprehension = []
 
+example_two_list_comprehension = [add_one(i) for i in range(3)]
