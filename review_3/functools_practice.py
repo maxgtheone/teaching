@@ -33,7 +33,12 @@ order_amount(first_buy_strategy, 75)
 #Partial functions from functools
 
 from functools import partial
+import functools
 
-order_from_first_strategy = partial(order_amount, first_buy_strategy)
+order_from_first_strategy = functools.partial(order_amount, first_buy_strategy)
 
 order_from_first_strategy(75)
+# import package_example
+# from directory_example import review
+# print(review.add_one(20))
+
